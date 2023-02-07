@@ -153,6 +153,10 @@ ul .nav-item + .nav-item{
     border-bottom: 1px solid white;
 }
 
+.menu-img{
+    display: none;
+}
+
 /* home section */
 
 .home{
@@ -583,4 +587,112 @@ ul .nav-item + .nav-item{
 
 .footer-down ul a{
     color: var(--gray-text);
+}
+
+/* Mobile screen */
+
+@media screen and (max-width: 768px) {
+    .navigation-bar{
+        display: none;
+    }
+    .menu{
+        display: flex;
+        justify-content: space-between;
+    }
+    .menu-img{
+        width: 50px;
+        height: 50px;
+        background-color: white;
+        border-radius: 8px;
+        display: block;
+        cursor: pointer;
+    }
+    .top-container{
+        display: flex;
+        justify-content: center;
+    }
+    .sounds-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .sounds-left-side{
+        text-align: center;
+    }
+    
+    .exp-container{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .exp-text{
+        text-align: center;
+    }
+    .gear-container{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .gear-text{
+        text-align: center;
+    }
+    .tech-container{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .tech-text{
+        text-align: center;
+    }
+    .creators-top{
+        text-align: center;
+    }
+    .creators-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .item-container1{
+        width: 300px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .item-container2{
+        width: 300px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .item-container3{
+        width: 300px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .item-img{
+        width: 100px;
+        height: 100px;
+        margin: 0 auto;
+    }
+    .item-text{
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .item-author{
+        font-size: 11px;
+    }
+    .footer-down{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
 }
