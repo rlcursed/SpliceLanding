@@ -591,7 +591,7 @@ ul .nav-item + .nav-item{
 
 /* Mobile screen */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 828px) {
     .navigation-bar{
         display: none;
     }
