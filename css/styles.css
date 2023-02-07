@@ -713,6 +713,12 @@ ul .nav-item + .nav-item{
     .list-container li a{
         display: none;
     }
+    .list-container .active{
+        cursor: pointer;
+    }
+    .list-container .active2{
+        cursor: pointer;
+    }
     .list-container{
         display: flex;
         flex-direction: column;
