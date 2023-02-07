@@ -702,6 +702,7 @@ ul .nav-item + .nav-item{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        text-align: center;
     }
     .footer-down{
         display: flex;
