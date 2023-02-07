@@ -611,6 +611,14 @@ ul .nav-item + .nav-item{
         display: flex;
         justify-content: center;
     }
+    .home-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
     .sounds-container{
         display: flex;
         flex-direction: column;
@@ -689,10 +697,27 @@ ul .nav-item + .nav-item{
     .item-author{
         font-size: 11px;
     }
+    .start-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     .footer-down{
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
+    }
+    .list-container li a{
+        display: none;
+    }
+    .list-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3px;
+        text-align: center;
     }
 }
