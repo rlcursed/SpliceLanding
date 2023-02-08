@@ -161,7 +161,7 @@ ul .nav-item + .nav-item{
 
 .home{
     height: 100vh;
-    background-image: url(/img/homebg.png);
+    background-image: url(./img/homebg.png);
     background-size: cover;
 }
 
@@ -481,7 +481,7 @@ ul .nav-item + .nav-item{
 
 .start{
     height: 100vh;
-    background-image: url(/img/lastbg.png);
+    background-image: url(./img/lastbg.png);
     background-size: cover;
     margin-top: 223px;
 }
