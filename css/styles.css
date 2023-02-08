@@ -482,7 +482,7 @@ ul .nav-item + .nav-item{
 
 .start{
     height: 100vh;
-    background-image: url(../img/lastbg.png);
+    background-image: url(../../img/lastbg.png);
     background-size: cover;
     margin-top: 223px;
 }
