@@ -1,0 +1,47 @@
+.gear{
+    height: 100vh;
+}
+
+.gear-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.gear-text .tittle{
+    color: var(--gray-text);
+    font-size: 12px;
+}
+
+.gear-text .post-tittle h2{
+    font-weight: 400;
+    font-size: 28px;
+    color: white;
+    margin-top: 2vh;
+}
+
+.gear-text .gear-low-text{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: white;
+    margin-top: 2vh;
+}
+
+.gear-button button{
+    width: 20vh;
+    height: 5vh;
+    font-size: 16px;
+    color: white;
+    border: none;
+    background-color: var(--item-color);
+    border-radius: 8px;
+    margin-top: 2vh;
+    transition: .4s;
+}
+
+.gear-button button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}

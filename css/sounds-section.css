@@ -1,0 +1,51 @@
+.sounds{
+    height: 100vh;
+    color: white;
+}
+
+.sounds-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15vh;
+}
+
+.sounds-left-side{
+    padding-left: 6vh;
+}
+
+.sounds-text .title{
+    font-size: 12px;
+    color: var(--gray-text);
+}
+
+.sounds-text .post-tittle h2{
+    font-weight: 400;
+    font-size: 28px;
+    margin-top: 2vh;
+}
+
+.sounds-text .sounds-low-text{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    margin-top: 2vh;
+}
+
+.sound-button button{
+    width: 20vh;
+    height: 5vh;
+    font-size: 16px;
+    color: white;
+    border: none;
+    background-color: var(--item-color);
+    border-radius: 8px;
+    margin-top: 4vh;
+    transition: .4s;
+}
+
+.sound-button button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}

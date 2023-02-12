@@ -1,0 +1,126 @@
+.logo{
+    height: 30px;
+    width: 97px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.logo:hover{
+    transform: scale(1.1);
+}
+
+.header-container{
+    background: var(--bg-color);
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 30px;
+}
+
+.nav-section{
+    display: flex;
+    align-items: center;
+    gap: 29px;
+}
+
+ul .nav-item + .nav-item{
+    margin-left: 20px;
+}
+
+.nav-item{
+    display: inline-block;
+    transition: .4s;
+}
+
+.nav-link{
+    color: #A6A8AD;
+    font-size: 16px;
+    font-weight: 400;
+    transition: .4s;
+}
+
+.nav-link:hover{
+    color: white;
+}
+
+.nav-item:hover{
+    transform: scale(1.1);
+}
+
+.header-buttons{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    gap: 20px;
+}
+
+.header-buttons .login button{
+    background-color: var(--bg-color);
+    border: none;
+    color: #A6A8AD ;
+    width: 42px;
+    height: 20px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.header-buttons .sign-up button{
+    background-color: white;
+    border-radius: 32px;
+    color: var(--bg-color) ;
+    width: 95px;
+    height: 35px;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.header-buttons .login button:hover{
+    transform: scale(1.1);
+}
+
+.header-buttons .sign-up button:hover{
+    transform: scale(1.1);
+}
+
+.top-container{
+    color: white;
+    background-color: var(--item-color);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 16px;
+    height: 5vh;
+    width: 100%;
+}
+
+.top-main-text{
+    margin-right: 10vh;
+}
+
+.top-click{
+    color: white;
+    transition: .4s;
+}
+
+.top-click:hover{
+    transform: scale(1.1);
+    border-bottom: 1px solid white;
+}
+
+.menu-img{
+    display: none;
+}
