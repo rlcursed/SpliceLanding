@@ -20,10 +20,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px;
     height: 30px;
 }
 
@@ -72,6 +69,7 @@ ul .nav-item + .nav-item{
     height: 20px;
     cursor: pointer;
     transition: .4s;
+    border: none;
 }
 
 .header-buttons .sign-up button{
@@ -84,6 +82,7 @@ ul .nav-item + .nav-item{
     font-weight: 400;
     cursor: pointer;
     transition: .4s;
+    border: none;
 }
 
 .header-buttons .login button:hover{

@@ -4,13 +4,15 @@
 }
 
 .sounds-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 15vh;
 }
-
+.sounds-img img {
+    height: 100%;
+    width: 100%;
+}
 .sounds-left-side{
     padding-left: 6vh;
 }

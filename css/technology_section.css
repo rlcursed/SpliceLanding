@@ -47,3 +47,8 @@
     transform: scale(1.1);
     cursor: pointer;
 }
+
+.tech-img img{
+    height: 100%;
+    width: 100%;
+}
